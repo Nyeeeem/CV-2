@@ -1,0 +1,182 @@
+  
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(74, 83, 153);
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  } 
+  
+  
+  .topnav a.icon {
+    background:  rgb(20, 22, 42);
+    display: block;
+    position: absolute;
+    padding-top: 33px;
+    right: 0;
+    top: 0;
+  }
+
+    /* Grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(39, 44, 81);
+}
+
+/*tyle the active link (or home/logo)*/
+.active {
+  background-color:rgba(187, 67, 67, 0.4);
+  color: white;
+  opacity: 100%;
+} 
+
+/* BUTTON */
+.btn {
+  line-height: 50px;
+  height: 50px;
+  width: 250px;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 10px;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.btn-one {
+  color:  rgb(74, 83, 153);
+  transition: all 0.3s;
+  position: relative;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 80;
+  
+}
+.btn-one span {
+  transition: all 0.3s;
+  color: rgb(74, 83, 153);
+}
+
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color:  rgb(74, 83, 153);
+  border-bottom-color:   rgb(74, 83, 153);
+  transform: scale(0.1, 1);
+ 
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+
+
+}   
+.btn-one:hover::before {
+  opacity: 1;	
+  transform: scale(1, 1);	
+}
+
+
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 57%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  opacity: 10%;
+  background-color:rgb(65, 78, 113);
+  border-radius: 10%;
+   
+  
+}
+.btn-one:hover::after {
+  opacity: 0;	
+  transform: scale(0.1, 1);
+}
+
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #7f53ac,
+        #657ced
+    );
+}
+.container-game{
+    position: absolute;
+    width: 50%;
+    min-width: 580px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    padding: 50px 10px;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+input[type="text"]{
+    width: 90px;
+    font-weight: 600;
+    color: #663399;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid #202020;
+    font-size: 28px;
+}
+button{
+    width: 160px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #663399;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    outline: none;
+}
+p{
+    font-weight: 400;
+}

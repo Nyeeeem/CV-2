@@ -1,0 +1,89 @@
+{
+    "basics": {
+      "name": "Anastasia Falk",
+      "label": "Web Designer",
+      "image": "img/cv-img_2_optimized",
+      "email": "anastasiya.afanaseva@hotmai.com",
+      "phone": "+46 76 708 76 72 ",
+      "url": "http://127.0.0.1:5500/index.html",
+      "summary": "Russian bord Swede stumbled upon and now hooked on the world of textures, colors and typography. Combining this with practical knowledge of coding this ideas into usable applications with my own bare hands to make your life easier",
+      "location": {
+        "city": "Stockholm/ available for remote positions"
+      }
+
+    },
+
+
+
+    "education": {
+      "schools": [
+
+        {
+          "degree": "UX/UI with Front End",
+          "institution": "Chas Academy",
+          "graduation year" : "2024"
+        },
+
+        {
+          "degree": "Crossmedia Design",
+          "institution": "Runö Academy",
+          "graduation year": "2022"
+        },
+
+        { 
+          "degree": "Bachelor of Economics",
+          "institution": "Uppsala University", 
+          "graduation year" : "2017"
+        }
+      ]
+    },
+
+
+
+    "skills":[{
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "3D",
+        "Blender",
+        "UX/UI",
+        "Adobe Creative Cloud",
+        "Figma",
+        "Concept Development/ Branding"
+      ]
+    }],
+" All languages": [{
+  "Type": "Swedish",
+  "Level": "Native, bilangual"},
+
+  {
+    "Type": "Russian",
+    "Level": "Native, bilangual"},
+
+    {
+      "Type": "English",
+      "Level": "Fluent"},
+
+      {
+        "Type": "Norwegian",
+        "Level": "Highly developed"
+      }
+
+],
+
+
+
+    "interests": [{
+
+      "keywords": [
+     "travel",
+     "photography",
+     "drawing",
+     "dance"
+      ]
+    }]
+
+    }
