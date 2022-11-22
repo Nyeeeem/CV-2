@@ -6,7 +6,7 @@
 
 fetch ("resume.json")
     .then (function(resp){
-        return resp. json (); // reciving the text and then converting it 
+        return resp.json (); // reciving the text and then converting it 
     }
     ) 
 
@@ -14,7 +14,7 @@ fetch ("resume.json")
         console.log (data);
     }
     ); 
-
+ 
 
     /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
