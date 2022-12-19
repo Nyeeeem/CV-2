@@ -28,7 +28,7 @@ function play(){
             guessed_nums;
         }
         else if(user_guess == answer){
-            msg1.textContent = "You Win!!";
+            msg1.textContent = "Yippie You Win!!";
             msg2.textContent = "The number was: " + answer;
             msg3.textContent = "You guessed it in "+ no_of_guesses + " guesses";
             document.getElementById("my_btn").disabled = true;

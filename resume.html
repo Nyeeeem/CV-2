@@ -22,12 +22,12 @@
 
         <!-- Top Navigation Menu -->
         <div class="topnav"> 
-          <a href="/main-page.html" class="active">Anastasia Falk</a>
+          <a href="./main-page.html" class="active">Anastasia Falk</a>
         
           <div id="myLinks"> 
-            <a href = "/main-page.html" class = "">Projects</a></li>
-            <a href = "/resume.html" class = "nav-link">Resumé</a> </li><br>
-            <a href = "/about-file.html" class = "nav-link">About</a></li>
+            <a href = "./main-page.html" class = "">Projects</a></li>
+            <a href = "./resume.html" class = "nav-link">Resumé</a> </li><br>
+            <a href = "./about-file.html" class = "nav-link">About</a></li>
         
           </div>
     
@@ -54,35 +54,39 @@
         <h1>Resumé </h1></header> <br>
         <h2>Education</h2></div>
      
+        </div>
+
+
        <!-- Container1-->
 
     <div class = "feature-resume">
    
-     <div class="feature-text-column-resume-left" >
-       
-       <p> <strong>Chas Academy</strong> <br>
-        2022- now
-    </p>
-    <p><strong>Runö Academy</strong><br>
-        2021-2022
-    </p>
-    <p><strong>Stockholm University</strong><br>
-    2020-2021</p>
-
-            <p><strong> Uppsala University</strong><br>
-                2013-2017
-            </p>
-
-                   
+     <div id="education" class="feature-text-column-resume-left" >
+ 
     </div>
-    <div class="feature-text-column-resume-right" >
-        <p>UX/UI with Frontend<br></p>
-        <p><br>Cross Media Design<br></p>
-        <p><br>Visual Studies<br></p>
-        <p><br> Bachelor of Economcs <br>
-        </p>
-        
-</div>
+
+    <div id="program" class="feature-text-column-resume-right" > 
+
+        <div id ="year" ></div>
+
+    </div>
+    </div>
+    
+      <!--   <div id ="year"  class="feature-text-column-resume-right" >  </div> -->
+      <div class="page-container-work">
+        <div class="header">
+            <h2>Work</h2></div>
+            </div>
+
+            
+    <div class = "feature-resume-work">
+   
+        <div id="experience-work" >
+  
+       </div>
+         
+
+
        
     </div>
 
@@ -95,6 +99,16 @@
                 <button>  <a href="https://www.linkedin.com/login/sv" target="_blank"> LinkedIn</a></button>
                 <button>  <a href="https://www.behance.net/anastasafanase" target="_blank"> Behance</a></button>
         </div>
-        <script src="java.js"></script>
+        
+    
+        <script src = "java.js"></script>
+        <script> fetch("../resume.json")
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                });
+        
+        </script>
+      
 
 </body>

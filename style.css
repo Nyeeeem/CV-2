@@ -4,6 +4,26 @@ body{
     margin: 0;
 }
 
+.skolNamn {
+    color: rgb(0, 0, 0);
+}
+.WorkExp{
+    color: black;
+    opacity: 100%;
+}
+
+.degreeName {
+
+    color: purple;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+}
+
+.GradYear {
+    color: blue;
+    padding-right: 1rem;
+
+}
 
   .topnav {
       overflow: hidden;
@@ -13,6 +33,7 @@ body{
     
     .topnav #myLinks {
       display: none;
+      
     }
     
     .topnav a {
@@ -23,8 +44,8 @@ body{
       display: block;
     } 
     
-        .topnav a.icon {
-      background:  rgb(20, 22, 42);
+    .topnav a.icon {
+      background: rgba(187, 67, 67, 0.4);
       display: block;
       position: absolute;
       padding-top: 33px;
@@ -35,12 +56,13 @@ body{
       /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgba(187, 67, 67, 0.4);
+    opacity: 80%;   
   }
   
   /*tyle the active link (or home/logo)*/
   .active {
-    background-color:rgba(187, 67, 67, 0.4);
+    background-color: rgb(74, 83, 153);
     color: white;
     opacity: 100%;
   } 
@@ -125,11 +147,6 @@ a:link {
 }
 
 
-
-
-
-
-
 .logo{
     font-size: 26px;
     margin: 0.9rem;
@@ -137,21 +154,14 @@ a:link {
     color: white;
     
 }
-
-.main-nav a{
+.toppnav a {
     padding: 1.5rem;
     text-decoration: none;
     color: white;
     display: block;
     font-family: 'Inter Tight', sans-serif; 
-    font-size: 13px;
-   
-}
+    font-size: 5rem ;
 
-.main-nav ul{
-    margin:0;
-    padding: 0; 
-    display: flex;
 }
 
 
@@ -276,7 +286,6 @@ a:link {
 /*ABOUT*/
 
 
-
 .feature-about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -353,16 +362,11 @@ a:link {
 }
 
 
+
 .feature-text-column-resume h1{
     font-family: 'Montserratt', sans-serif;
 }
 
-.feature-text-column-resume-right{
-    grid-column: 2/3;
-    grid-row: 1/3;
-    font-family: 'Montserrat', sans-serif;
-
-}
 
 .feature-text-column-resume-left{
     text-align: end;
@@ -397,7 +401,6 @@ a:link {
     grid-column: 1;
     
 }
-
 
 
 .large-solar-container{
@@ -498,6 +501,7 @@ border-radius: 5px;
 
 .feature-text-column-webb-right p {
     font-family: 'Montserrat', sans-serif;
+  
 }
 
 /* NFT Landing page */ 
@@ -533,4 +537,27 @@ border-radius: 5px;
         object-fit: cover;
     
     }
+  
+
+      /*Resume Json*/
+
+      .feature-resume-work{
+        border: solid black 0.5px;
+        border-radius: 0.7rem;
+
+    }
     
+    .feature-work-column-right{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .experience-work{
+        color: rgb(1, 1, 1);
+        text-align: center;
+
+    }
+    #experience-work
+    {
+        text-align: center;
+        
+    }
